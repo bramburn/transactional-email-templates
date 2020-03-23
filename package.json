@@ -1,0 +1,26 @@
+{
+  "name": "icelabz-mail",
+  "version": "1.0.0",
+  "description": "Transactional HTML emails often get neglected. **Styling HTML email is painful**. Tables, inline CSS, unsupported CSS, desktop clients, web clients, mobile clients, various devices, various providers.",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "inline-css": "^2.6.3"
+  },
+  "devDependencies": {
+    "gulp-inline-css": "^3.5.0"
+  },
+  "scripts": {
+    "run": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bramburn/transactional-email-templates.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bramburn/transactional-email-templates/issues"
+  },
+  "homepage": "https://github.com/bramburn/transactional-email-templates#readme"
+}
