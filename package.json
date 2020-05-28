@@ -1,6 +1,6 @@
 {
   "name": "icelabz-mail",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Transactional HTML emails often get neglected. **Styling HTML email is painful**. Tables, inline CSS, unsupported CSS, desktop clients, web clients, mobile clients, various devices, various providers.",
   "main": "index.js",
   "dependencies": {
@@ -8,7 +8,16 @@
     "inline-css": "^2.6.3"
   },
   "devDependencies": {
-    "gulp-inline-css": "^3.5.0"
+    "browser-sync": "^2.26.7",
+    "gulp-inline-css": "^3.5.0",
+    "node-sass": "4.14.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-jshint": "^2.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.0.2",
+    "gulp-uglify": "^3.0.2"
   },
   "scripts": {
     "run": "node index.js"
